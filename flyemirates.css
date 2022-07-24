@@ -1,0 +1,894 @@
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+    overflow: none;
+    font-family: sans-serif;
+}
+
+.part-one {
+    background-image: url("https://c.ekstatic.net/ecl/aircraft-interior/first-class/boeing777/japanese-female-watching-ice-in-first-class-w1920x480.jpg?h=ilAo7wx3nFo4xzS6A3mUBQ");
+background-repeat : no-repeat;
+background-size : cover;
+background-position : center;
+/* width: 800px; */
+/* height:550px; */
+width: 100%;
+height:555px;
+}
+
+/* DIV class important */
+.important {
+background-color: #3c63b5;
+display: flex;
+color: white;
+margin-bottom: 0px;
+height: 50px;
+font-size: small;
+}
+
+
+/* NOTICE */
+.notice {
+	display: inline;
+	margin-left: 80px;
+    padding-top: 5px;
+}
+
+.notice a {
+    color: white;
+}
+.notice a:hover {
+	text-decoration: none;
+}
+
+/* SHOW MORE */
+#show-more {
+    padding-left: 540px;
+    padding-top: 15px;
+    font-size: small;
+}
+
+#show-more a {
+    text-decoration: none;
+    color: white;
+}
+
+#show-more a:hover {
+    text-decoration: underline;
+}
+
+
+/* NAVIGATION */
+#navigation {
+    background-color: #333333;
+    margin: 0px;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    }
+
+
+/* LEFT NAV */
+#left-nav {
+    position: absolute;
+    left: 10%;
+    top: 6.5%;
+    list-style-type: none;
+    display: flex;
+    /* margin: 0 0 0 12%; */
+    height: 48px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+#left-nav li {
+    padding: 15px 10px;
+}
+
+#left-nav li:hover {
+    background-color: #212121;
+}
+
+#left-nav a {
+    ul: 20px;
+}
+
+/* RIGHT NAV */
+#right-nav {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right: 60px;
+    margin-top: 0px;
+}
+
+#right-nav li {
+    /* padding: 0px 10px 0px 10px; */
+    padding: 15.5px 10px;
+    text-align: centre;
+}
+
+#right-nav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+
+#right-nav li:hover {
+    background-color: #212121;
+}
+
+/* IMAGE LOGO */
+#image-logo {
+    margin: 0px 0px 0px 6%;
+}
+
+#image-logo img{
+    width: 90px;
+    height: 125px;
+
+}
+
+/* FLY BETTER */
+#fly-better {
+    margin-left: 80%;
+    margin-top: -30px;
+    width: 100px;
+    border-radius: 25px;
+
+}
+
+#fly {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10%;
+    margin-left: 6%;
+    width: 500px;
+    height:auto;
+}
+
+#fly span {
+    display: block;
+}
+
+#fly-span {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    transform: rotate(0deg) scale(1) skew(-13deg) translate(0);
+}
+
+#fly span:nth-of-type(2) {
+    font-size: 4rem;
+    transform: rotate(0deg) scale(1) skew(-13deg) translate(0);
+    letter-spacing: -5px;
+}
+
+#fly-Learn {
+    color: white;
+    float: left;
+    margin-left: 35%;
+    margin-top: 7px;
+
+    text-decoration: none;
+}
+
+#fly-Learn span {
+    background-color: #c60c30;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+/* FEED BACK */
+#feed-back {
+    position: fixed;
+    top: 50%;
+    right: -22px;
+    transform: rotate(-90deg);
+    background-color: white;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+#feed-back img {
+    width: 20px;
+    margin-right: 50px;
+    transform: rotate(-270deg);
+    margin: 0;
+}
+
+#feed-back p {
+    color: black;
+    /* transform: rotate(90deg);
+    margin-top: -80px;
+    background-color: white; */
+}
+
+/* SEARCH */
+#search {
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-top: 13%;
+    margin-left: 5%;
+    box-shadow: 0 0.2rem 0.4rem rgb(0 0 0 / 19%);
+    width: 89.5%;
+    height: 365px;
+    padding-left: 0px;
+  }
+
+#search-list {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 4px 0px;
+  }
+  #search-list li:nth-of-type(1) {
+    border-bottom: 2px solid red;
+  }
+
+  #search-list li {
+    padding: 15px 30px;
+    width: 100%;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* COVID div */
+  #covid {
+      border: 1px solid blue;
+      background-color: #f0f4ff;
+      margin: 20px;
+      padding: 20px;
+      font-family: sans-serif;
+      border-radius: 3px;
+  }
+  #covid p {
+      /* display:flex; */
+
+      width: 70%;
+      font-size: 1.1rem;
+      color: blue;
+      font-weight: 700;
+  }
+
+  #covid a {
+      float: right;
+      margin-right: 10px;
+      margin-top: -3%;
+      border: 1px solid grey;
+      padding: 10px 15px;
+      background-color: #ffffff;
+      border-radius: 3px;
+      text-decoration: none;
+  }
+
+  /* FLIGHT */
+  #flight {
+      display: flex;
+      margin-left: -17px;
+      align-items: center;
+
+  }
+
+  .flight-list {
+    list-style-type: none;
+    width: 12%;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+  }
+
+  /* AD SEARCH */
+  #ad-search {
+      margin-left: 59%;
+  }
+
+  #ad-search a {
+    color: #c81d31;
+  }
+
+  #ad-search a:hover {
+      text-decoration: none;
+  }
+
+/* DEPARTURE */
+#departure {
+    margin: 20px;
+}
+
+#departure input {
+    padding: 20px 220px 20px 20px;
+    margin-right: 30px;
+}
+
+#departure button {
+    padding: 20px 67px;
+    font-size: 16px;
+    background-color: #c60c30;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    border: 0px;
+}
+
+/* ICONS */
+#icons {
+    width: 89.5%;
+    margin-left: 2%;
+}
+
+#icons ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  #icons li {
+    padding: 25px 20px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: white;
+  }
+#icons li a {
+    color: grey;
+}
+
+#icons li:hover {
+    border-bottom: solid 3px red;
+    font-weight: bold;
+    color: black;
+}
+
+#icons li a {
+    color: #212121;
+}
+
+
+  /* SKYWARDS */
+  #skywards {
+      background-color: black;
+      border-radius: 3px;
+      color: white;
+      margin: 30px 60px;
+      height: 75px;
+  }
+
+  #skywards img {
+    margin-left: 2.5%;
+    width: 18%;
+      background-color: white;
+      border-radius: 50px;
+  }
+
+  #skywards div {
+      position: relative;
+      bottom: 90px;
+      left: 220px;
+      width: 55%;
+      font-size: 0.75rem;
+  }
+  #skywards h2{
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#skywards p {
+    color: white;
+    padding-left: 30px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+  #skywards a {
+    position: relative;
+    bottom:42px;
+    left: 108%;
+    width: 25%;
+    color: black;
+    background-color: #f0f4ff;
+    padding: 10px 75px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#skywards a:hover {
+    background-color: rgba(203, 200, 200, 0.888);
+}
+
+/* SECTION TWO */
+#part-two {
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 43%;
+}
+
+/* Travel - one */
+#travel-one {
+    padding-top: 50px;
+}
+
+#travel-one span {
+    font-size: 1 rem;
+   display: block;
+   text-align: center;
+}
+
+#travel-one h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+#travel-one p {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+}
+
+/* Travel - two */
+#travel-two {
+    display:flex;
+    margin-top: 50px;
+width:100%;
+height: 700px;
+}
+
+#travel-two div:hover {
+border-radius: 10px;
+}
+
+#travel-two a {
+    text-decoration: none;
+}
+
+/* Travel -a */
+  #travel-a {
+      background-image: url("https://c.ekstatic.net/ecl/airport/coronavirus/economy-class-cabin-crew-not-wearing-ppe-d800x600.jpg?h=qPFcRjS6CYkGkSux2WKYQQ");
+      display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 63%;
+    height: 68%;
+    margin-left: 20%;
+    padding-top: 60px;
+    padding-left: 25px;
+  }
+
+  #travel-a p {
+      font-size: 3rem;
+      color: black;
+  }
+
+#travel-a span {
+    border-top: 2px solid red;
+    color: black;
+}
+
+/* Travel - b */
+  #travel-b {
+      display: inline-block;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-4Jg1WjKyYccfIzlgLor09OdiKObW9-VKw&usqp=CAU");
+      background-repeat : no-repeat;
+background-size : cover;
+background-position : center;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-left: 10px;
+    width: 30%;
+    height: 37.5%;
+  }
+
+  #travel-b p {
+      margin-top: 30px;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+#travel-b p:nth-of-type(2) {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#travel-b span {
+  border-top: 2px solid red;
+  color: black;
+  margin-left: 40%;
+  padding-top: 5px;
+}
+
+/* Travel - c */
+  #travel-c {
+      background-image: url("https://c.ekstatic.net/ecl/destinations/europe/united-kingdom/thames-river-night-view-with-tower-bridge-d600x400.jpg?h=nFgukqFdPdgg8oQg33WXfg");
+      display: inline-block;
+      position:relative;
+      top: -6%;
+     right: 18.8%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 30%;
+    height: 37.5%;
+    margin-top: 25%;
+  }
+
+  #travel-c p {
+    margin-top: 30px;
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+}
+
+#travel-c p:nth-of-type(2) {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#travel-c span {
+border-top: 2px solid red;
+color: black;
+margin-left: 40%;
+padding-top: 5px;
+}
+
+
+/* BOAT */
+#boat {
+    background-image: url("https://c.ekstatic.net/ecl/special-offers/my-emirates-pass-2022/dubai-marina-cruise-with-tour-dubai-t1024x480.jpg");
+    background-size : cover;
+    background-position : center;
+    margin-top: -110px;
+    width: 100%;
+height: 350px;
+text-align: center;
+font-family: sans-serif;
+color: white;
+padding-top: 60px;
+}
+
+#boat hr {
+width: 5%;
+border-top: 2px solid red;
+border-bottom: 0;
+border-left: 0;
+border-right: 0;
+}
+
+#boat a {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 44%;
+    width: 10%;
+    border-radius: 3px;
+    font-weight: 600;
+    color: black;
+}
+
+#boat h2 {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#boat p {
+    color: white;
+}
+
+/* PART - THREE */
+
+/* Destinations */
+#destinations {
+    margin: 3% 15% 3% 15%;
+}
+
+#destinations p {
+    display:inline-block;
+    margin-left: 30%;
+    font-size: 1.2rem;
+    color: #a9a9a9;
+}
+
+#destinations img {
+    width: 90px;
+    float: right;
+    padding-top: 17px;
+}
+
+
+.destination {
+    display: flex;
+
+    font-size: 0.7rem;
+}
+
+.destination a {
+    width: 350px;
+    height: 300px;
+    color: #33374C;
+}
+
+.destination-place {
+    border: 1px solid grey;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 3px;
+}
+
+.destination-place img{
+    width: 100%;
+    height: 50%;
+    /* object-fit: fill; */
+
+}
+
+
+
+#see-link:hover {
+    box-shadow: 1px 0px 0px 1px grey;
+
+}
+
+#see-link {
+    display: inline-block;
+    margin-left: 45%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+#see-terms {
+    margin-left: 45%;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: .85rem;
+}
+
+
+/* SKYWARDS */
+#skywards-plus {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.swncdn.com/via/6801-family-running-field-sunlight-gettyimages-evg.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-position : center;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    color: white;
+}
+
+#skywards-plus p:nth-child(1) {
+    text-transform: uppercase;
+    padding-top: 100px;
+    color: white;
+    /* text-shadow: 2px 2px black; */
+}
+
+
+#skywards-plus h2 {
+    color: white;
+    font-size: 2rem;
+    border-bottom-width: 30px;
+    border-bottom: red;
+    padding-bottom: 0;
+}
+#skywards-plus hr {
+    border: 2px solid red;
+    width: 5%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 0;
+  }
+
+#anchor {
+    display: block;
+    border-radius: 3px;
+    margin-top: 100px;
+    color: black;
+    padding: 10px 5px;
+    background-color: white;
+    width: 13%;
+    margin-left: 45%;
+    text-decoration: none;
+}
+#about-us {
+    text-align: center;
+}
+
+#about-us p{
+    color:black;
+
+}
+
+.about {
+    padding-left: 10%;
+}
+
+.about a{
+    display:block;
+    padding: 50px;
+}
+
+
+.about {
+    display:flex;
+}
+.about img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.about p {
+    padding-top: 10px;
+}
+
+
+
+/* LASTPART */
+#last-part {
+    background-color: #333333;
+    width: 100%;
+    height: auto;
+}
+#last-part li a:hover {
+    text-decoration: underline;
+    background: hsla(0,0%,100%,.1);
+}
+
+.about-us-footer {
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+.about-us-footer li a {
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+.about-us-footer ul {
+    list-style-type: none;
+}
+
+
+.move {
+    padding-left: 0;
+}
+
+/* .footer {
+    display:flex;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-bottom: solid #a9a9a9 1px;
+} */
+
+/* SECOND-FOOTER */
+.footer {
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 20px;
+    margin-left: 75px;
+    margin-right: 100px;
+    border-bottom: solid #a9a9a9 1px;
+}
+
+.footer-2 ul:nth-of-type(3) {
+    margin-left: 34px;
+    background-color: green;
+}
+
+
+
+
+.footer ul {
+    list-style-type: none;
+}
+
+/* THIRD FOOTER */
+.footer-three {
+    display:flex;
+    color: white;
+    padding-top: 0px;
+    margin-left: 75px;
+    margin-right: 100px;
+    font-size: 0.9rem;
+}
+.footer-three ul {
+    list-style-type: none;
+}
+
+.footer-three li {
+    padding-top: 5px;
+}
+.no-style a:hover {
+    text-decoration: none;
+}
+
+.no-style img {
+    width: 150px;
+    height: 60px;
+}
+
+.just-a-footer {
+    width: 40%;
+}
+
+.just-a-footer li a {
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+.mini-icon img {
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/* FOOTER STAR */
+.footer-star {
+    display: flex;
+    color: #a9a9a9;
+    padding-top: 5px;
+    margin-left: 30px;
+    margin-right: 100px;
+    font-size: 0.9rem;
+}
+.footer-star ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer-star li a {
+    color: #a9a9a9;
+}
+
+.footer-star li{
+    display: inline;
+}
+
+.footer-star a {
+    text-decoration: none;
+}
+#copyright {
+    color: white;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.star {
+    padding-top: 10px;
+    width: 200px;
+    height: 100px;
+}
